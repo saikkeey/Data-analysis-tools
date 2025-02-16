@@ -41,28 +41,22 @@ analyzer.create_visualization('scatter', 'price', 'sales', 'Price vs Sales')
 plt.savefig('price_vs_sales.png')
 
 
-Requirements
 
-pandas (for data handling)
-matplotlib (for the plots)
-Python 3.7 or newer probably
-
-Known Issues 🐛
+## Known Issues 🐛
 
 Sometimes the plots look a bit weird with really long category names
 Haven't tested it with huge datasets yet
 The JSON output could be prettier
 
-Contributing
+## Contributing
 Found a bug? Want to add something cool? Feel free to:
 
-Fork it
+## Fork it
 Create your feature branch (git checkout -b cool-new-feature)
 Commit your changes (git commit -am 'Added something awesome')
 Push to the branch (git push origin cool-new-feature)
 Make a Pull Request!
 
-License
-MIT License - do whatever you want with it! Just don't blame me if something breaks 😅
+# Do whatever you want with it! Just don't blame me if something breaks 😅
 
 PS: If this helped you, stars ⭐ are always appreciated!
